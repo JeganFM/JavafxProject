@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-30T10:19:48Z" name="Default Suite" finished-at="2020-11-30T10:19:49Z" duration-ms="1355">
+    <groups>
+    </groups>
+    <test started-at="2020-11-30T10:19:48Z" name="JavafxProject" finished-at="2020-11-30T10:19:49Z" duration-ms="1355">
+      <class name="persistence.StaffDAOTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:48Z" name="setUp" finished-at="2020-11-30T10:19:48Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidateUserTrue()[pri:1, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:48Z" name="testValidateUserTrue" finished-at="2020-11-30T10:19:49Z" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserTrue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="tearDown" finished-at="2020-11-30T10:19:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="setUp" finished-at="2020-11-30T10:19:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidateUser()[pri:2, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="testValidateUser" finished-at="2020-11-30T10:19:49Z" duration-ms="58" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at persistence.StaffDAOTest.testValidateUser(StaffDAOTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="tearDown" finished-at="2020-11-30T10:19:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="setUp" finished-at="2020-11-30T10:19:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidateUserFalse()[pri:3, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="testValidateUserFalse" finished-at="2020-11-30T10:19:49Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserFalse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:persistence.StaffDAOTest@543c6f6d]" started-at="2020-11-30T10:19:49Z" name="tearDown" finished-at="2020-11-30T10:19:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- persistence.StaffDAOTest -->
+    </test> <!-- JavafxProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

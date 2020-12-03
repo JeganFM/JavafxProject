@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/jegan/OneDrive - National College of Ireland/BSC Computing/4th year/Secure Application Programming (BSHCYB4)/CA/JavafxProject">
+        <packages>
+            <package name="persistence"></package>
+        </packages>
+
+    </test>
+</suite>
